@@ -1,0 +1,85 @@
+
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.main-menu ul li {
+	display: inline-block;
+	margin-right: 18px;
+	position: relative;
+}
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.main-menu ul li {
+	display: inline-block;
+	margin-right: 18px;
+	position: relative;
+}
+.logo a {
+	text-align: center;
+}
+.section-title h4 {
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+.single-feature p {
+	font-size: 12px;
+	
+}
+.element-item {
+ width: 33.33%;
+}
+.footer-menu {
+	text-align: center;
+}
+
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+
+.section-title h4 {
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+.element-item {
+ width: 100%;
+}
+.footer-menu {
+	text-align: center;
+}
+.logo a {
+	margin-top: 25px;
+	padding:0;
+}
+.slider-text h2 {
+
+    font-size: 30px;
+
+    }
+    .slider-text {
+	padding-left: 20px;
+}
+.slider-text a {
+	font-size: 12px;
+	padding: 15px 40px;
+}
+.single-feature img {
+	padding-left: 60px;
+}
+.single-feature h3 {
+	font-size: 18px;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	padding-left: 40px;
+}
+
+}
+
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+.element-item {
+ width: 50%;
+}
+
+}

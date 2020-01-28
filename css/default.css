@@ -1,0 +1,105 @@
+.grey-bg{
+ background: #f7f7fd;
+}
+.theme-bg{
+	background: #0668de;
+}
+.white-bg{
+	background: #fff;
+}
+.black-bg{
+	background: #222;
+}
+
+
+/*padding  */
+.pt-20{padding-top: 20px;}
+.pt-25{padding-top: 25px;}
+.pb-20{padding-bottom:  20px;}
+.pb-25{padding-bottom:  25px;}
+.pb-30{padding-bottom:  30px;}
+.pb-60{padding-bottom:  60px;}
+.pb-50{padding-bottom:  50px;}
+.pb-80{padding-bottom:  80px;}
+.pt-60{padding-top:  60px;}
+.pt-50{padding-top:  50px;}
+.pt-40{padding-top:  40px;}
+.pl-25{padding-left:  15px;}
+.pt-25{padding-top: 25px;}
+.pb-25{padding-bottom:25px;}
+.pr-55{padding-right:55px;}
+.pl-55{padding-left:55px;}
+.pt-110{padding-top: 110px;}
+.pt-100{padding-top: 100px;}
+.pt-140{padding-top: 140px;}
+.pb-100{padding-bottom: 100px;}
+.pb-140{padding-bottom: 140px;}
+.pt-120{padding-top: 120px;}
+.pt-90{padding-top: 90px;}
+.pt-190{padding-top: 190px;}
+.pb-90{padding-bottom: 90px;}
+.pb-110{padding-bottom: 110px;}
+.pb-120{padding-bottom: 120px;}
+.pb-190{padding-bottom: 190px;}
+.pb-130{padding-bottom: 130px;}
+.mb-20{margin-bottom: 20px;}
+.mt-25{margin-top: 25px;}
+.mt-40{margin-top: 40px;}
+.mt-50{margin-top: 50px;}
+.mb-25{margin-bottom: 25px;}
+.mb-30{margin-bottom: 30px;}
+.mb-40{margin-bottom: 40px;}
+.mb-50{margin-bottom: 50px;}
+.mb-60{margin-bottom: 60px;}
+.mb-60{margin-bottom: 100px;}
+.mt-60{margin-top: 60px;}
+.mt-100{margin-top: 100px;}
+
+/*overlay effect  */
+.z-index{
+	z-index: 9;
+	position: relative;
+}
+[data-overlay]{
+	position: relative;
+}
+
+
+/* main slider */
+[data-overlays]{
+	position: relative;
+}
+[data-overlays]::before{
+	background:#000;
+	content: "";
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top:0;
+	width:100%;
+	z-index:1;
+}
+[data-overlays="3"]::before{
+	opacity: .3;
+}
+[data-overlays="4"]::before{
+	opacity: .4;
+}
+[data-overlays="5"]::before{
+	opacity: .5;
+}
+[data-overlays="6"]::before{
+	opacity: .6;
+}
+[data-overlays="7"]::before{
+	opacity: .7;
+}
+[data-overlays="8"]::before{
+	opacity: .8;
+}
+[data-overlays="9"]::before{
+	opacity: .9;
+}
+[data-overlays="10"]::before{
+	opacity: 1;
+}
